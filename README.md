@@ -1,585 +1,208 @@
-#CHARAMAM
-Build a polished, highly interactive web app called “The Object Funeral Service” — a completely useless but hilarious social platform where people photograph ordinary objects and create dramatic memorials/funerals for them.
+<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
-The concept:
-People can take a photo of any object using their phone/laptop camera or upload an image. The app turns that object into a ridiculously serious memorial card. Other users can browse the memorials in a Pinterest-style feed, leave candle tributes, and view the object's “life story.”
 
-The entire experience should feel like a combination of:
 
-an old newspaper archive
+# CHARAMAM🎯
 
-a handwritten funeral/memorial book
 
-Pinterest
+## Basic Details
+### Team Name: PixelBloom
 
-a slightly absurd museum
 
-minimalist editorial design
+### Team Members
+- Team Lead: Harikrishnan K.R- ASIET Kalady
+- Member 2: Maheswaran V A - ASIET Kalady
 
-The humor should come from treating completely ordinary objects as if they were deeply important historical figures.
+### Project Description
+#CHARAMAM Build a polished, highly interactive web app called “CHARAMAM” — a completely useless but hilarious social platform where people photograph ordinary objects and create dramatic memorials/funerals for them.
 
-VISUAL STYLE
+The concept: People can take a photo of any object using their phone/laptop camera or upload an image. The app turns that object into a ridiculously serious memorial card. Other users can browse the memorials in a Pinterest-style feed, leave candle tributes, and view the object's “life story.”
 
-Use a minimalistic paper-and-ink aesthetic.
+### The Problem (that doesn't exist)
+What happened to my lost pen?
 
-Color palette:
+### The Solution (that nobody asked for)
+Creating the backstory and reason for death.
 
-warm off-white / aged paper background
+## Technical Details
+### Technologies/Components Used
 
-black/dark charcoal ink
+#### For Software:
 
-subtle gray
+* **TypeScript** – application logic and type-safe development
+* **React 19** – component-based frontend development
+* **Tailwind CSS** – responsive styling and UI design
+* **Vite** – frontend development and build tooling
+* **TanStack Start / TanStack Router** – application routing and server integration
+* **TensorFlow.js** – browser-based computer vision capabilities
+* **COCO-SSD** – object detection from uploaded/captured images
+* **Google GenAI** – AI-generated humorous object obituaries and memorial text
+* **Lucide React** – interface icons
+* **Browser MediaDevices API** – live webcam access and photograph capture
+* **LocalStorage** – persistence of memorial data in the prototype
+* **HTML5 Canvas API** – capturing frames from the live camera
+* **CSS animations** – paper, ink, candle and memorial transition effects
+* **Git & GitHub** – source-code management and project hosting
 
-very occasional muted red only for important actions
+#### For Hardware:
 
-Avoid:
+* Laptop/desktop computer or smartphone
+* Built-in webcam or external USB webcam
+* Camera-enabled mobile device for mobile usage
+* Internet connection for web-based AI/API features
+* No dedicated hardware is required
 
-gradients
+---
 
-neon colors
+### Implementation
 
-glossy cards
+#### For Software:
 
-generic SaaS aesthetics
+# Installation
 
-excessive rounded corners
+Clone the repository:
 
-modern dashboard appearance
+```bash
+git clone https://github.com/hariii14/USELESS-PROJECTS-3.0.git
+cd USELESS-PROJECTS-3.0
+```
 
-Use typography that looks handwritten and editorial:
+Install dependencies:
 
-handwritten-style display font for object names/headlines
+```bash
+npm install
+```
 
-clean serif/sans-serif for supporting information
+If using Bun:
 
-subtle typewriter-style elements where appropriate
+```bash
+bun install
+```
 
-The interface should look slightly imperfect and tactile:
+Create the environment file from the provided example:
 
-subtle paper grain
+```bash
+cp .env.example .env
+```
 
-tiny ink imperfections
+Configure any required API keys in `.env` if AI-generated obituary functionality is enabled.
 
-slightly rotated cards
+# Run
 
-hand-drawn divider lines
+Start the development server:
 
-dashed borders
-
-handwritten annotations
-
-imperfect circles around important elements
-
-Keep it elegant and minimal rather than making it visually noisy.
-
-HOMEPAGE
-
-Create a beautiful landing/feed page.
-
-Top navigation:
-
-Left:
-THE OBJECT FUNERAL SERVICE™
-
-Center/right:
-
-Memorials
-
-Recently Departed
-
-Most Mourned
-
-Right:
-
-- Memorialize an Object
-
-Hero section:
-
-Large handwritten headline:
-
-“Gone, but unnecessary.”
-
-Subtitle:
-
-“A quiet place to remember objects that once meant absolutely nothing to anyone.”
-
-Below it, a small hand-drawn line.
-
-Then a search bar:
-
-“Search the deceased…”
-
-The main content should be a Pinterest-style masonry grid.
-
-Do NOT use a standard equal-height card grid.
-
-Cards should have different image heights and tiny random rotations, like physical photographs/paper cards scattered on a table.
-
-MEMORIAL CARDS
-
-Each memorial card should contain:
-
-object photograph
-
-object name
-
-birth/death years if provided
-
-short obituary
-
-cause of death
-
-candle/tribute count
-
-heart/tribute button
-
-Example:
-
-USB Cable
-
-2017 — 2026
-
-“Connected to everyone. Worked with nobody.”
-
-Cause of death:
-Chronic connectivity failure.
-
-🕯 84
-
-Cards should have slightly different rotations.
-
-Hovering over a card should:
-
-straighten the card
-
-slightly lift it
-
-reveal subtle details
-
-produce a tiny paper/ink interaction
-
-Do not make the animation excessive.
-
-CREATE MEMORIAL FLOW
-
-When the user clicks “+ Memorialize an Object”, open a beautiful modal or dedicated page.
-
-Title:
-
-“Let us remember them.”
-
-Provide two options:
-
-OPTION 1 — LIVE CAMERA
-
-Ask for camera permission and display the webcam feed.
-
-Large button:
-
-TAKE PHOTOGRAPH
-
-When clicked:
-
-capture the current camera frame
-
-show the captured image
-
-allow retake
-
-allow confirmation
-
-Support mobile cameras using the appropriate browser camera APIs.
-
-OPTION 2 — UPLOAD
-
-Allow the user to upload an image from their device.
-
-Show a beautiful drag-and-drop paper area:
-
-“Place the photograph here.”
-
-Also provide a normal file picker.
-
-After image selection, show a preview.
-
-MEMORIAL FORM
-
-After the image is selected, ask:
-
-Object's name
-Placeholder:
-“Old USB Cable”
-
-Cause of death
-Placeholder:
-“Stopped working at the worst possible moment.”
-
-Its final story
-Placeholder:
-“Write something unnecessarily emotional…”
-
-Born
-Placeholder:
-“2019”
-
-Departed
-Placeholder:
-“2026”
-
-Add an optional checkbox:
-
-☐ Let the AI write the obituary
-
-If enabled, generate a short, absurdly dramatic obituary based on the object name, cause and story.
-
-Example:
-
-Object:
-USB Cable
-
-Generated obituary:
-
-“It spent six years searching for the correct orientation. It never found it.”
-
-Keep generated text humorous and short.
-
-Final button:
-
-🕯 CREATE MEMORIAL
-
-Button should have a subtle ink-stamp animation when clicked.
-
-MEMORIAL CREATION ANIMATION
-
-When the user creates a memorial:
-
-Do NOT instantly redirect.
-
-Show a short theatrical animation.
-
-The photograph appears like a physical photograph being placed onto paper.
-
-Then:
-
-“Preparing the memorial…”
-
-A small hand-drawn candle appears.
-
-Then:
-
-“They will be remembered.”
-
-Then transition into the newly created memorial card.
-
-Keep the animation around 1–2 seconds.
-
-MEMORIAL DETAIL PAGE
-
-Clicking a memorial should open a detailed memorial page.
-
-Large photograph on the left.
-
-Information on the right:
-
-OBJECT NAME
-
-Born:
-2019
-
-Departed:
-2026
-
-Cause:
-Chronic connectivity failure.
-
-Then the obituary in handwritten typography.
-
-Below:
-
-LEAVE A TRIBUTE
-
-Allow visitors to light a virtual candle.
-
-Button:
-
-🕯 Light a candle
-
-Every click increments the candle count.
-
-Add tiny candle animations when clicked.
-
-Display:
-
-“84 people have remembered this object.”
-
-Also include a simple comment/tribute section where users can write short messages.
-
-Examples:
-
-“Gone too soon.”
-
-“Never worked when I needed it.”
-
-“F.”
-
-“Thank you for your service.”
-
-PINTEREST-LIKE DISCOVERY
-
-Create multiple sections:
-
-Recently Departed
-
-Newest memorials.
-
-Most Mourned
-
-Objects with the highest candle counts.
-
-Forgotten Souls
-
-Memorials with almost no interactions.
-
-Questionable Deaths
-
-Objects with ridiculous causes of death.
-
-Examples:
-
-“Lost during a house move”
-
-“Destroyed by younger sibling”
-
-“Dropped exactly once”
-
-“Cable developed trust issues”
-
-“Unknown circumstances”
-
-“Was replaced despite functioning perfectly”
-
-Use the masonry layout throughout.
-
-SEARCH
-
-The search bar should actually filter memorials.
-
-Search by:
-
-object name
-
-cause of death
-
-obituary
-
-category
-
-Example searches:
-
-“chair”
-“broken”
-“USB”
-“lost”
-
-Show a small handwritten empty state when there are no results:
-
-“No deceased objects found.”
-
-Then:
-
-“Perhaps they are still alive.”
-
-CATEGORY SYSTEM
-
-Allow memorials to have optional categories:
-
-Electronics
-
-Stationery
-
-Clothing
-
-Furniture
-
-Toys
-
-Household
-
-Miscellaneous
-
-Add a subtle category filter near the search bar.
-
-FUN FEATURES
-
-Add small useless statistics to memorial pages:
-
-OBJECT STATISTICS
-
-Years served: 6
-
-Known owners: 1
-
-Major incidents: 14
-
-Successful repairs: 0
-
-Last known location:
-“Somewhere in the house.”
-
-Historical importance:
-Questionable
-
-These statistics should be humorous rather than actually useful.
-
-“OBJECT OF THE DAY”
-
-On the homepage, feature one memorial as:
-
-OBJECT OF THE DAY
-
-Large photograph.
-
-Example:
-
-THE LEFT SOCK
-
-2018 — 2026
-
-“Separated from its partner under mysterious circumstances.”
-
-Add:
-
-Remembered by 231 people
-
-Make this section visually resemble a newspaper front page.
-
-LIVE ACTIVITY
-
-Add a tiny “live memorial activity” section.
-
-Examples:
-
-🕯 Someone just remembered The Old Calculator
-
-🕯 3 people are mourning USB Cable #42
-
-🕯 Chair #17 received a tribute
-
-This should feel like an unnecessarily serious breaking-news ticker.
-
-Use mock data initially.
-
-RESPONSIVE DESIGN
-
-The website must work beautifully on:
-
-mobile
-
-tablet
-
-desktop
-
-On mobile:
-
-2-column Pinterest masonry where possible
-
-sticky bottom/create button if useful
-
-camera interface should use the full available screen
-
-cards should remain easy to tap
-
-On desktop:
-
-3–5 column masonry depending on viewport width
-
-spacious editorial layout
-
-TECHNICAL REQUIREMENTS
-
-Use:
-
-React
-
-TypeScript
-
-Tailwind CSS
-
-modern component architecture
-
-browser MediaDevices API for webcam capture
-
-local image preview
-
-localStorage for the initial prototype
-
-Structure the application cleanly so a backend can be connected later.
-
-Create reusable components for:
-
-MemorialCard
-
-MasonryFeed
-
-CameraCapture
-
-ImageUploader
-
-MemorialForm
-
-MemorialDetail
-
-CandleButton
-
-SearchBar
-
-CategoryFilter
-
-ActivityTicker
-
-ObjectOfTheDay
-
-Use realistic mock memorial data on first launch so the website immediately looks populated.
-
-Persist newly created memorials locally so refreshing the page does not immediately remove them.
-
-IMPORTANT DESIGN PRINCIPLE
-
-This should NOT look like a generic AI startup.
-
-It should feel like someone built an extremely serious institution for a completely ridiculous purpose.
-
-The joke should come from the contrast between:
-
-extremely polished design + extremely unnecessary purpose.
-
-Every interaction should feel unnecessarily ceremonial.
-
-Use subtle animations, paper textures, handwritten annotations and tiny details to make the experience memorable.
-
-The final result should feel like a project people at a hackathon/event would want to walk up to, photograph an object, memorialize it, and then show their friends.
-
-The app's personality is:
-
-“We take useless things extremely seriously.”
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/3fd50fa1-f0f2-4364-8a62-a32cba895844).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+```bash
 npm run dev
 ```
+
+Or with Bun:
+
+```bash
+bun run dev
+```
+
+Open the local development URL shown in the terminal.
+
+For a production build:
+
+```bash
+npm run build
+```
+
+Run the production server:
+
+```bash
+npm start
+```
+
+For previewing the Vite build:
+
+```bash
+npm run preview
+```
+
+# Main Implementation
+
+The application provides a Pinterest-style masonry memorial feed where users can browse fictional memorials for ordinary objects.
+
+The **Camera Capture module** uses the browser MediaDevices API to request camera access, display a live camera stream, and capture a frame using the Canvas API.
+
+The **Image Upload module** allows users to upload photographs from their device and preview them before creating a memorial.
+
+The **Memorial Creation module** collects the object's name, dates, cause of death and final story. The application can use AI to generate a short humorous obituary.
+
+The **Object Detection module** can use TensorFlow.js and COCO-SSD to identify objects in captured or uploaded images.
+
+The **Memorial Feed** presents objects using a masonry/Pinterest-style layout with different image sizes, subtle card rotations and paper-like styling.
+
+The **Tribute System** allows visitors to light virtual candles and leave humorous messages for memorialized objects.
+
+The **Search and Filter system** allows memorials to be searched by object name, category, cause of death and obituary.
+
+The application uses **LocalStorage for prototype persistence**, allowing newly created memorials and interactions to remain available after refreshing the browser.
+
+The visual interface follows a **minimal paper-and-ink aesthetic**, using warm paper tones, dark ink, handwritten typography, hand-drawn borders and subtle animations to create the appearance of an old memorial archive.
+
+The project intentionally combines computer vision, AI-generated content, camera interaction and social-style browsing for a completely unnecessary purpose: **giving ordinary objects an unnecessarily dramatic farewell.**
+
+
+### Project Documentation
+For Software:
+
+<img width="1917" height="910" alt="image" src="https://github.com/user-attachments/assets/40f184cf-58db-40bc-83f1-d9458f59ab82" />
+<img width="1917" height="907" alt="image" src="https://github.com/user-attachments/assets/c1abef9d-0657-49cb-97f9-a93c5dc1ed8c" />
+<img width="1917" height="910" alt="image" src="https://github.com/user-attachments/assets/b519480c-13e1-4a00-b4e4-bfda231080f5" />
+<img width="1917" height="910" alt="image" src="https://github.com/user-attachments/assets/5da27642-76eb-4aff-a9e8-ac9c7c6ba6eb" />
+
+
+
+![Screenshot2](Add screenshot 2 here with proper name)
+*Add caption explaining what this shows*
+
+![Screenshot3](Add screenshot 3 here with proper name)
+*Add caption explaining what this shows*
+
+# Diagrams
+![Workflow](Add your workflow/architecture diagram here)
+*Add caption explaining your workflow*
+
+For Hardware:
+
+# Schematic & Circuit
+![Circuit](Add your circuit diagram here)
+*Add caption explaining connections*
+
+![Schematic](Add your schematic diagram here)
+*Add caption explaining the schematic*
+
+# Build Photos
+![Components](Add photo of your components here)
+*List out all components shown*
+
+![Build](Add photos of build process here)
+*Explain the build steps*
+
+![Final](Add photo of final product here)
+*Explain the final build*
+
+### Project Demo
+# Video
+[Add your demo video link here]
+*Explain what the video demonstrates*
+
+# Additional Demos
+[Add any extra demo materials/links]
+
+## Team Contributions
+- [Name 1]: [Specific contributions]
+- [Name 2]: [Specific contributions]
+- [Name 3]: [Specific contributions]
+
+---
+Made with ❤️ at TinkerHub Useless Projects 
+
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2Fuseless-projects-3.0)
+
+
+
