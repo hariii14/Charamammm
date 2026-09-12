@@ -6,7 +6,7 @@
 
 
 ## Basic Details
-### Team Name: PixelBloom
+### Team Name: Pixelbloom
 
 
 ### Team Members
