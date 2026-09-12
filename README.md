@@ -149,54 +149,48 @@ The project intentionally combines computer vision, AI-generated content, camera
 ### Project Documentation
 For Software:
 
-<img width="1917" height="910" alt="image" src="https://github.com/user-attachments/assets/40f184cf-58db-40bc-83f1-d9458f59ab82" />
-<img width="1917" height="907" alt="image" src="https://github.com/user-attachments/assets/c1abef9d-0657-49cb-97f9-a93c5dc1ed8c" />
-<img width="1917" height="910" alt="image" src="https://github.com/user-attachments/assets/b519480c-13e1-4a00-b4e4-bfda231080f5" />
-<img width="1917" height="910" alt="image" src="https://github.com/user-attachments/assets/5da27642-76eb-4aff-a9e8-ac9c7c6ba6eb" />
+<img width="1763" height="3920" alt="image" src="https://github.com/user-attachments/assets/4b6473a7-9a4e-4802-863d-236709e4fb8d" />
+<img width="1763" height="2832" alt="image" src="https://github.com/user-attachments/assets/bb755beb-898b-49a1-804b-46a78a2dad9b" />
+<img width="843" height="2877" alt="image" src="https://github.com/user-attachments/assets/5aaf278c-9bbd-4692-b60d-d2790137f815" />
+
+<img width="1910" height="973" alt="image" src="https://github.com/user-attachments/assets/713610ea-5a95-470e-a5ef-568259b6fdc2" />
+This shows the page where we can upload pics
+
+<img width="1910" height="973" alt="image" src="https://github.com/user-attachments/assets/43ee50ed-5a44-43fa-a779-148cf142b85a" />
+The details are auto filled.
+
+<img width="1910" height="973" alt="image" src="https://github.com/user-attachments/assets/881a01d7-a227-4a93-84fc-e016146e0a9c" />
+Final post
+
+<img width="1910" height="973" alt="image" src="https://github.com/user-attachments/assets/ce7d6730-befc-4446-aa50-753e05df7af7" />
 
 
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+<img width="1604" height="5020" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/3e3fc0a8-72dc-467a-8750-6b1a393d799d" />
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+<img width="1883" height="3896" alt="image" src="https://github.com/user-attachments/assets/02eb8826-6510-46cb-8df0-a14904f926df" />
+First output from lovle and antigravity
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/553559c1-3548-4e56-9ad5-b72d8333f7aa" />
+setting up features in antigravity
 
-![Final](Add photo of final product here)
-*Explain the final build*
+
+<img width="1763" height="3920" alt="image" src="https://github.com/user-attachments/assets/4b6473a7-9a4e-4802-863d-236709e4fb8d" />
+<img width="1910" height="973" alt="image" src="https://github.com/user-attachments/assets/713610ea-5a95-470e-a5ef-568259b6fdc2" />
+<img width="1910" height="973" alt="image" src="https://github.com/user-attachments/assets/43ee50ed-5a44-43fa-a779-148cf142b85a" />
+<img width="1910" height="973" alt="image" src="https://github.com/user-attachments/assets/881a01d7-a227-4a93-84fc-e016146e0a9c" />
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1pqyxTsJcpaKqTXv_qEOiCxhW__B5hJ19/view?usp=sharing
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Harikrishnan K.R - Frontend, Backend
+- Maheswaran V A - Frontend design inspo
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
