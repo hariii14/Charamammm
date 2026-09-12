@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-gothic: "UnifrakturMaguntia", serif;
+    --font-headline: "Playfair Display", Georgia, serif;
+    --font-newspaper: "Old Standard TT", Georgia, serif;
+    --font-editorial: "EB Garamond", Georgia, serif;
+    --font-handwriting: "Caveat", cursive;
+    --font-typewriter: "Courier Prime", monospace;
+  }
+}
+
+.font-gothic {
+  font-family: var(--font-gothic);
+}
+
+.font-headline {
+  font-family: var(--font-headline);
+}
+
+.font-newspaper {
+  font-family: var(--font-newspaper);
+}
+
+.font-editorial {
+  font-family: var(--font-editorial);
+}
+
+.font-handwriting {
+  font-family: var(--font-handwriting);
+}
+
+.font-typewriter {
+  font-family: var(--font-typewriter);
+}
+
+/* Aged Broadside Newspaper Background with Crispy Newsprint Grain */
+body {
+  background-color: #f6f1e3;
+  color: #1a1815;
+  background-image:
+    radial-gradient(#ded4bd 0.75px, transparent 0.75px),
+    radial-gradient(#d3c6ab 0.75px, #f6f1e3 0.75px);
+  background-size: 20px 20px;
+  background-position:
+    0 0,
+    10px 10px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Crispy Newsprint Card & Paper Section Texture */
+.crisp-newsprint {
+  background-color: #faf6ed;
+  background-image: radial-gradient(rgba(45, 36, 25, 0.04) 1px, transparent 0);
+  background-size: 8px 8px;
+  position: relative;
+}
+
+.crisp-newsprint::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(35, 27, 18, 0.02) 2px,
+    rgba(35, 27, 18, 0.02) 3px
+  );
+  opacity: 0.6;
+}
+
+/* Letterpress Ink Impression: Gives text authentic pressed ink depth */
+.ink-impression {
+  text-shadow: 0 0 0.5px rgba(26, 24, 21, 0.4);
+}
+
+/* Halftone Plate Pattern for Newspaper Photographs */
+.newsprint-halftone-plate {
+  position: relative;
+}
+
+.newsprint-halftone-plate::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(10, 10, 10, 0.15) 1px, transparent 1px);
+  background-size: 3px 3px;
+  mix-blend-mode: multiply;
+  opacity: 0.65;
+}
+
+/* Classic Newspaper Column Rules */
+.newspaper-col-rule {
+  column-rule: 1px solid rgba(26, 24, 21, 0.22);
+}
+
+.newspaper-text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+.newspaper-drop-cap::first-letter {
+  float: left;
+  font-family: var(--font-headline);
+  font-size: 3.25rem;
+  line-height: 0.8;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-bottom: 2px;
+  font-weight: 900;
+  color: #1a1815;
+}
+
+/* Double rule borders characteristic of 19th-century newspapers */
+.border-double-rule {
+  border-top: 3px double #1a1815;
+  border-bottom: 1px solid #1a1815;
+}
+
+.border-masthead-rule {
+  border-top: 4px solid #1a1815;
+  border-bottom: 2px solid #1a1815;
+}
+
+/* Motion blur styling for interactive cursor */
+.motion-blur-trail {
+  transition:
+    transform 0.08s cubic-bezier(0.1, 0.8, 0.2, 1),
+    filter 0.15s ease-out,
+    opacity 0.2s ease-out;
+  will-change: transform, filter, opacity;
+  pointer-events: none;
+}
+
+/* Ceremonial ink stamp animation */
+@keyframes stampIn {
+  0% {
+    transform: scale(1.6) rotate(-15deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(0.95) rotate(-3deg);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1) rotate(-4deg);
+    opacity: 1;
+  }
+}
+
+.ink-stamp {
+  animation: stampIn 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
