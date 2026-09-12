@@ -173,7 +173,7 @@ Final post
 # Build Photos
 
 <img width="1883" height="3896" alt="image" src="https://github.com/user-attachments/assets/02eb8826-6510-46cb-8df0-a14904f926df" />
-First output from lovle and antigravity
+First output from lovable and antigravity
 <img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/553559c1-3548-4e56-9ad5-b72d8333f7aa" />
 setting up features in antigravity
 
